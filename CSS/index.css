@@ -854,13 +854,11 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     /* background-color: #2196F3; */
-    padding: 10px;
-
     /* padding-left:140px; */
     /* text-align: center; */
     width: 53%;
     margin: 10px auto;
-    height:500px;
+    height:300px;
   }
   .grid-item {
     /* background-color: rgba(255, 255, 255, 0.8); */
@@ -913,16 +911,18 @@ body {
       
     }
     .grid-container1 {
+        /* border-style: solid;
+        border-color: tomato; */
       display: grid;
       grid-template-columns: auto;
       /* background-color: #2196F3; */
       padding: 0px;
-      /* width:80vw; */
+      width:80vw;
       /* padding-left:140px; */
-      /* text-align: center; */
-      width: 60vw;
+      text-align: center;
+      /* width: 60vw; */
       /* margin: 10px auto; */
-      height:1000px;
+      height:700px;
     }
     .grid-item {
       /* background-color: rgba(255, 255, 255, 0.8); */
